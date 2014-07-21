@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0B3133190B596F00EABC70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0B3132190B596F00EABC70 /* Foundation.framework */; };
+		4C0B3135190B596F00EABC70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0B3134190B596F00EABC70 /* CoreGraphics.framework */; };
+		4C0B3137190B596F00EABC70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0B3136190B596F00EABC70 /* UIKit.framework */; };
+		4C0B313D190B596F00EABC70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B313B190B596F00EABC70 /* InfoPlist.strings */; };
+		4C0B313F190B596F00EABC70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B313E190B596F00EABC70 /* main.m */; };
+		4C0B3143190B596F00EABC70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B3142190B596F00EABC70 /* AppDelegate.m */; };
+		4C0B3146190B596F00EABC70 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B3144190B596F00EABC70 /* Main_iPhone.storyboard */; };
+		4C0B314C190B596F00EABC70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B314B190B596F00EABC70 /* ViewController.m */; };
+		4C0B314E190B596F00EABC70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B314D190B596F00EABC70 /* Images.xcassets */; };
+		4C0B3155190B596F00EABC70 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0B3154190B596F00EABC70 /* XCTest.framework */; };
+		4C0B3156190B596F00EABC70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0B3132190B596F00EABC70 /* Foundation.framework */; };
+		4C0B3157190B596F00EABC70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0B3136190B596F00EABC70 /* UIKit.framework */; };
+		4C0B315F190B596F00EABC70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B315D190B596F00EABC70 /* InfoPlist.strings */; };
+		4C0B3161190B596F00EABC70 /* AudioVideoMergeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B3160190B596F00EABC70 /* AudioVideoMergeTests.m */; };
+		4C0B316B190B5BE400EABC70 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0B316A190B5BE400EABC70 /* AVFoundation.framework */; };
+		4C0B3171190B5C0600EABC70 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0B3170190B5C0600EABC70 /* AssetsLibrary.framework */; };
+		4C0B3173190B5C1A00EABC70 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0B3172190B5C1A00EABC70 /* MediaPlayer.framework */; };
+		4C0B3175190B7A1A00EABC70 /* Asteroid_Video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B3174190B7A1A00EABC70 /* Asteroid_Video.m4v */; };
+		4C0B3177190B7A3800EABC70 /* Asteroid_Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B3176190B7A3800EABC70 /* Asteroid_Sound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C0B3158190B596F00EABC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0B3127190B596F00EABC70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C0B312E190B596F00EABC70;
+			remoteInfo = AudioVideoMerge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C0B312F190B596F00EABC70 /* AudioVideoMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioVideoMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0B3132190B596F00EABC70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C0B3134190B596F00EABC70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C0B3136190B596F00EABC70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C0B313A190B596F00EABC70 /* AudioVideoMerge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioVideoMerge-Info.plist"; sourceTree = "<group>"; };
+		4C0B313C190B596F00EABC70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C0B313E190B596F00EABC70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C0B3140190B596F00EABC70 /* AudioVideoMerge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioVideoMerge-Prefix.pch"; sourceTree = "<group>"; };
+		4C0B3141190B596F00EABC70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C0B3142190B596F00EABC70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C0B3145190B596F00EABC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4C0B314A190B596F00EABC70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C0B314B190B596F00EABC70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C0B314D190B596F00EABC70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C0B3153190B596F00EABC70 /* AudioVideoMergeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioVideoMergeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0B3154190B596F00EABC70 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C0B315C190B596F00EABC70 /* AudioVideoMergeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioVideoMergeTests-Info.plist"; sourceTree = "<group>"; };
+		4C0B315E190B596F00EABC70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C0B3160190B596F00EABC70 /* AudioVideoMergeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioVideoMergeTests.m; sourceTree = "<group>"; };
+		4C0B316A190B5BE400EABC70 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C0B316C190B5BED00EABC70 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4C0B316E190B5BFF00EABC70 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4C0B3170190B5C0600EABC70 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4C0B3172190B5C1A00EABC70 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4C0B3174190B7A1A00EABC70 /* Asteroid_Video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Asteroid_Video.m4v; sourceTree = "<group>"; };
+		4C0B3176190B7A3800EABC70 /* Asteroid_Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Asteroid_Sound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C0B312C190B596F00EABC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0B3173190B5C1A00EABC70 /* MediaPlayer.framework in Frameworks */,
+				4C0B3171190B5C0600EABC70 /* AssetsLibrary.framework in Frameworks */,
+				4C0B316B190B5BE400EABC70 /* AVFoundation.framework in Frameworks */,
+				4C0B3135190B596F00EABC70 /* CoreGraphics.framework in Frameworks */,
+				4C0B3137190B596F00EABC70 /* UIKit.framework in Frameworks */,
+				4C0B3133190B596F00EABC70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0B3150190B596F00EABC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0B3155190B596F00EABC70 /* XCTest.framework in Frameworks */,
+				4C0B3157190B596F00EABC70 /* UIKit.framework in Frameworks */,
+				4C0B3156190B596F00EABC70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C0B3126190B596F00EABC70 = {
+			isa = PBXGroup;
+			children = (
+				4C0B3138190B596F00EABC70 /* AudioVideoMerge */,
+				4C0B315A190B596F00EABC70 /* AudioVideoMergeTests */,
+				4C0B3131190B596F00EABC70 /* Frameworks */,
+				4C0B3130190B596F00EABC70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C0B3130190B596F00EABC70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C0B312F190B596F00EABC70 /* AudioVideoMerge.app */,
+				4C0B3153190B596F00EABC70 /* AudioVideoMergeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C0B3131190B596F00EABC70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C0B3172190B5C1A00EABC70 /* MediaPlayer.framework */,
+				4C0B3170190B5C0600EABC70 /* AssetsLibrary.framework */,
+				4C0B316E190B5BFF00EABC70 /* MobileCoreServices.framework */,
+				4C0B316C190B5BED00EABC70 /* CoreMedia.framework */,
+				4C0B316A190B5BE400EABC70 /* AVFoundation.framework */,
+				4C0B3132190B596F00EABC70 /* Foundation.framework */,
+				4C0B3134190B596F00EABC70 /* CoreGraphics.framework */,
+				4C0B3136190B596F00EABC70 /* UIKit.framework */,
+				4C0B3154190B596F00EABC70 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C0B3138190B596F00EABC70 /* AudioVideoMerge */ = {
+			isa = PBXGroup;
+			children = (
+				4C0B3176190B7A3800EABC70 /* Asteroid_Sound.mp3 */,
+				4C0B3174190B7A1A00EABC70 /* Asteroid_Video.m4v */,
+				4C0B3141190B596F00EABC70 /* AppDelegate.h */,
+				4C0B3142190B596F00EABC70 /* AppDelegate.m */,
+				4C0B3144190B596F00EABC70 /* Main_iPhone.storyboard */,
+				4C0B314A190B596F00EABC70 /* ViewController.h */,
+				4C0B314B190B596F00EABC70 /* ViewController.m */,
+				4C0B314D190B596F00EABC70 /* Images.xcassets */,
+				4C0B3139190B596F00EABC70 /* Supporting Files */,
+			);
+			path = AudioVideoMerge;
+			sourceTree = "<group>";
+		};
+		4C0B3139190B596F00EABC70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C0B313A190B596F00EABC70 /* AudioVideoMerge-Info.plist */,
+				4C0B313B190B596F00EABC70 /* InfoPlist.strings */,
+				4C0B313E190B596F00EABC70 /* main.m */,
+				4C0B3140190B596F00EABC70 /* AudioVideoMerge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C0B315A190B596F00EABC70 /* AudioVideoMergeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C0B3160190B596F00EABC70 /* AudioVideoMergeTests.m */,
+				4C0B315B190B596F00EABC70 /* Supporting Files */,
+			);
+			path = AudioVideoMergeTests;
+			sourceTree = "<group>";
+		};
+		4C0B315B190B596F00EABC70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C0B315C190B596F00EABC70 /* AudioVideoMergeTests-Info.plist */,
+				4C0B315D190B596F00EABC70 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C0B312E190B596F00EABC70 /* AudioVideoMerge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0B3164190B596F00EABC70 /* Build configuration list for PBXNativeTarget "AudioVideoMerge" */;
+			buildPhases = (
+				4C0B312B190B596F00EABC70 /* Sources */,
+				4C0B312C190B596F00EABC70 /* Frameworks */,
+				4C0B312D190B596F00EABC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioVideoMerge;
+			productName = AudioVideoMerge;
+			productReference = 4C0B312F190B596F00EABC70 /* AudioVideoMerge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C0B3152190B596F00EABC70 /* AudioVideoMergeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0B3167190B596F00EABC70 /* Build configuration list for PBXNativeTarget "AudioVideoMergeTests" */;
+			buildPhases = (
+				4C0B314F190B596F00EABC70 /* Sources */,
+				4C0B3150190B596F00EABC70 /* Frameworks */,
+				4C0B3151190B596F00EABC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C0B3159190B596F00EABC70 /* PBXTargetDependency */,
+			);
+			name = AudioVideoMergeTests;
+			productName = AudioVideoMergeTests;
+			productReference = 4C0B3153190B596F00EABC70 /* AudioVideoMergeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C0B3127190B596F00EABC70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TheAppGuruz;
+				TargetAttributes = {
+					4C0B3152190B596F00EABC70 = {
+						TestTargetID = 4C0B312E190B596F00EABC70;
+					};
+				};
+			};
+			buildConfigurationList = 4C0B312A190B596F00EABC70 /* Build configuration list for PBXProject "AudioVideoMerge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C0B3126190B596F00EABC70;
+			productRefGroup = 4C0B3130190B596F00EABC70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C0B312E190B596F00EABC70 /* AudioVideoMerge */,
+				4C0B3152190B596F00EABC70 /* AudioVideoMergeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C0B312D190B596F00EABC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0B3175190B7A1A00EABC70 /* Asteroid_Video.m4v in Resources */,
+				4C0B3177190B7A3800EABC70 /* Asteroid_Sound.mp3 in Resources */,
+				4C0B314E190B596F00EABC70 /* Images.xcassets in Resources */,
+				4C0B3146190B596F00EABC70 /* Main_iPhone.storyboard in Resources */,
+				4C0B313D190B596F00EABC70 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0B3151190B596F00EABC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0B315F190B596F00EABC70 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C0B312B190B596F00EABC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0B314C190B596F00EABC70 /* ViewController.m in Sources */,
+				4C0B3143190B596F00EABC70 /* AppDelegate.m in Sources */,
+				4C0B313F190B596F00EABC70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0B314F190B596F00EABC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0B3161190B596F00EABC70 /* AudioVideoMergeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C0B3159190B596F00EABC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C0B312E190B596F00EABC70 /* AudioVideoMerge */;
+			targetProxy = 4C0B3158190B596F00EABC70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C0B313B190B596F00EABC70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C0B313C190B596F00EABC70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C0B3144190B596F00EABC70 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C0B3145190B596F00EABC70 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4C0B315D190B596F00EABC70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C0B315E190B596F00EABC70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C0B3162190B596F00EABC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C0B3163190B596F00EABC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C0B3165190B596F00EABC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioVideoMerge/AudioVideoMerge-Prefix.pch";
+				INFOPLIST_FILE = "AudioVideoMerge/AudioVideoMerge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C0B3166190B596F00EABC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioVideoMerge/AudioVideoMerge-Prefix.pch";
+				INFOPLIST_FILE = "AudioVideoMerge/AudioVideoMerge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C0B3168190B596F00EABC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioVideoMerge.app/AudioVideoMerge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioVideoMerge/AudioVideoMerge-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AudioVideoMergeTests/AudioVideoMergeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4C0B3169190B596F00EABC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioVideoMerge.app/AudioVideoMerge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioVideoMerge/AudioVideoMerge-Prefix.pch";
+				INFOPLIST_FILE = "AudioVideoMergeTests/AudioVideoMergeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C0B312A190B596F00EABC70 /* Build configuration list for PBXProject "AudioVideoMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0B3162190B596F00EABC70 /* Debug */,
+				4C0B3163190B596F00EABC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0B3164190B596F00EABC70 /* Build configuration list for PBXNativeTarget "AudioVideoMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0B3165190B596F00EABC70 /* Debug */,
+				4C0B3166190B596F00EABC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0B3167190B596F00EABC70 /* Build configuration list for PBXNativeTarget "AudioVideoMergeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0B3168190B596F00EABC70 /* Debug */,
+				4C0B3169190B596F00EABC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C0B3127190B596F00EABC70 /* Project object */;
+}
